@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Client",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nic": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "mobile_number": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "status_civil": {
+      "type": "enumeration",
+      "enum": [
+        "Soltero",
+        "Casado",
+        "Divorciado",
+        "Viudo"
+      ]
+    }
+  }
+}
