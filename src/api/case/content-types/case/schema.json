@@ -34,7 +34,16 @@
     "lawyer": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "case"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Empresarial",
+        "Robo",
+        "Divorcio"
+      ]
     }
   }
 }

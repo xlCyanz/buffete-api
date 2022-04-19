@@ -62,6 +62,12 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
+    },
+    "case": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::case.case",
+      "inversedBy": "lawyer"
     }
   }
 }
