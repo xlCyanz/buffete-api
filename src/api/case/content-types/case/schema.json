@@ -38,12 +38,7 @@
       "inversedBy": "case"
     },
     "type": {
-      "type": "enumeration",
-      "enum": [
-        "Empresarial",
-        "Robo",
-        "Divorcio"
-      ]
+      "type": "string"
     }
   }
 }

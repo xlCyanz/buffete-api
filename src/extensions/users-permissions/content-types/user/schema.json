@@ -67,7 +67,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::case.case",
-      "inversedBy": "lawyer"
+      "mappedBy": "lawyer"
     }
   }
 }
